@@ -169,3 +169,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# macOS
+.DS_Store
+
+# Claude Code project instructions (contains personal notes and SSH info)
+CLAUDE.md
+
+# Generated preview images
+images_preview/
