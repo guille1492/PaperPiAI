@@ -8,7 +8,7 @@ import shutil
 import subprocess
 
 # ==== CONFIG ====
-IMAGE_DIR = "/home/dylski/images/flowers"
+IMAGE_DIR = "/home/admin/PaperPiAI/images"
 DISPLAY_IMAGE = os.path.join(IMAGE_DIR, "output.png")
 # Use a timeout (in seconds) for read_edge_events(). 
 # A small value (e.g., 1.0) ensures low-CPU usage 
@@ -17,8 +17,8 @@ READ_TIMEOUT = 1
 
 
 DISPLAY_CMD = [
-    "/home/dylski/venv/bin/python3",
-    "/home/dylski/projects/PaperPiAI/src/display_picture.py",
+    "/home/admin/PaperPiAI/venv/bin/python3",
+    "/home/admin/PaperPiAI/src/display_picture.py",
     "-r",
     DISPLAY_IMAGE
 ]
